@@ -1,0 +1,12 @@
+name = "ai-proxy"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# 可选：配置自定义域名
+# routes = [
+#   { pattern = "your-domain.com/*", zone_name = "your-domain.com" }
+# ]
+
+# 可选：配置环境变量（建议通过 Cloudflare Dashboard 设置敏感信息）
+# [vars]
+# ALLOWED_ORIGINS = "*"

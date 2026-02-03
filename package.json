@@ -1,0 +1,25 @@
+{
+  "name": "ai-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker proxy for OpenAI, Claude, and Gemini APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "proxy",
+    "openai",
+    "claude",
+    "gemini",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
