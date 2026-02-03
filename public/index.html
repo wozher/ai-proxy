@@ -376,8 +376,8 @@
       },
       gemini: {
         endpoint: '/gemini/v1beta/models/{model}:generateContent',
-        models: 'gemini-2.0-flash-exp, gemini-1.5-pro, gemini-1.5-flash, gemini-pro',
-        defaultModel: 'gemini-2.0-flash-exp',
+        models: 'gemini-1.5-flash, gemini-1.5-pro, gemini-pro',
+        defaultModel: 'gemini-1.5-flash',
         buildRequest: (apiKey, model, message) => ({
           endpointSuffix: `?key=${apiKey}`,
           headers: {
